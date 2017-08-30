@@ -1,21 +1,21 @@
 //
-//  MainViewController.m
+//  CMLMainViewController.m
 //  CoreML
 //
 //  Created by Renhuachi on 2017/8/30.
 //  Copyright © 2017年 tencent. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "CMLMainViewController.h"
 
-@interface MainViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface CMLMainViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, copy) NSArray *cellArr;
 
 @end
 
-@implementation MainViewController
+@implementation CMLMainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
