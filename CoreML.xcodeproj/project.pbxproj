@@ -15,6 +15,7 @@
 		D75885341F56DA9800DD7E9A /* CMLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75885331F56DA9800DD7E9A /* CMLMainViewController.m */; };
 		D75885371F56DCC500DD7E9A /* CMLFlowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75885361F56DCC500DD7E9A /* CMLFlowerViewController.m */; };
 		D758853A1F56DD6700DD7E9A /* CMLSentimentAnalysisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75885391F56DD6700DD7E9A /* CMLSentimentAnalysisViewController.m */; };
+		D758853C1F56E0F600DD7E9A /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D758853B1F56E0F600DD7E9A /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D75885361F56DCC500DD7E9A /* CMLFlowerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMLFlowerViewController.m; sourceTree = "<group>"; };
 		D75885381F56DD6700DD7E9A /* CMLSentimentAnalysisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMLSentimentAnalysisViewController.h; sourceTree = "<group>"; };
 		D75885391F56DD6700DD7E9A /* CMLSentimentAnalysisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMLSentimentAnalysisViewController.m; sourceTree = "<group>"; };
+		D758853B1F56E0F600DD7E9A /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SqueezeNet.mlmodel; path = ../../../CoreMLTest/CoreMLTest/Model/SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		D75885301F56DA7300DD7E9A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D758853B1F56E0F600DD7E9A /* SqueezeNet.mlmodel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D758850D1F56DA3C00DD7E9A /* main.m in Sources */,
+				D758853C1F56E0F600DD7E9A /* SqueezeNet.mlmodel in Sources */,
 				D758853A1F56DD6700DD7E9A /* CMLSentimentAnalysisViewController.m in Sources */,
 				D75885341F56DA9800DD7E9A /* CMLMainViewController.m in Sources */,
 				D75885371F56DCC500DD7E9A /* CMLFlowerViewController.m in Sources */,
