@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  CoreML
 //
 //  Created by Renhuachi on 2017/8/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-
