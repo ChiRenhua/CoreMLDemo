@@ -7,6 +7,8 @@
 //
 
 #import "CMLMainViewController.h"
+#import "CMLFlowerViewController.h"
+#import "CMLSentimentAnalysisViewController.h"
 
 @interface CMLMainViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -46,7 +48,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0: {
-            
+            CMLFlowerViewController *flowerVC = [CMLFlowerViewController new];
+            [self.navigationController pushViewController:flowerVC animated:YES];
         }
             
             break;
