@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713B755D1F57243F00D9AB54 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 718003301F57141F00EDDB1B /* SqueezeNet.mlmodel */; };
 		D75884FF1F56DA3C00DD7E9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D75884FE1F56DA3C00DD7E9A /* AppDelegate.m */; };
 		D75885071F56DA3C00DD7E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75885061F56DA3C00DD7E9A /* Assets.xcassets */; };
 		D758850D1F56DA3C00DD7E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D758850C1F56DA3C00DD7E9A /* main.m */; };
@@ -291,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D758850D1F56DA3C00DD7E9A /* main.m in Sources */,
+				713B755D1F57243F00D9AB54 /* SqueezeNet.mlmodel in Sources */,
 				D758853A1F56DD6700DD7E9A /* CMLSentimentAnalysisViewController.m in Sources */,
 				D75885341F56DA9800DD7E9A /* CMLMainViewController.m in Sources */,
 				D75885371F56DCC500DD7E9A /* CMLFlowerViewController.m in Sources */,
